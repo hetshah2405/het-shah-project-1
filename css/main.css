@@ -1,0 +1,73 @@
+.hidden{
+    display: none;
+}
+
+@font-face{
+    .teko-uniquifier {
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+      }
+      
+    }
+
+#job{
+    width: 430px;
+    margin: 20px auto;
+    border: solid 3px white;
+    background-color: rgb(18, 46, 95);
+    border-radius: 50px;
+}
+
+#marvel{
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+header{
+    grid-column: 1/-1;
+}
+
+header h2{
+    font-family: "Teko", sans-serif;
+    text-align: center;
+    color: yellow;
+    letter-spacing: 15px;
+}
+
+article{
+    grid-column: 1/-1;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: yellow;
+    font: bolder;
+    background-color: none;
+    border-radius: 10px;
+  }
+
+h3{
+    font-family: "Teko", sans-serif;
+    font: bold;
+    color: yellow;
+}  
+
+p{
+    color: white;
+    font-family:"Teko", sans-serif;
+    font-size: larger;
+}
+
+footer{
+    opacity: none;
+    font-family: "Teko", sans-serif;
+    text-size-adjust: 5px;
+    padding-bottom: 5px;
+}
